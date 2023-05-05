@@ -9,10 +9,8 @@ const Home = () => {
     <div className="mx-5">
       <Banner></Banner>
       <Foods></Foods>
-      <Getstarted></Getstarted>
-     
-
       <About></About>
+      <Getstarted></Getstarted>
     </div>
   );
 };

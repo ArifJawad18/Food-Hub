@@ -1,9 +1,12 @@
 import React from 'react';
 
 const Login = () => {
-    return (
-        <div  className="flex justify-center mt-8">
-         <div className=" w-full max-w-md p-8 space-y-3 rounded-xl bg-gray-50 text-gray-800">
+	return (
+		<div>
+			<div className="hero min-h-screen ">
+  <div className="hero-content flex-col lg:flex-row-reverse">
+    
+  <div className="w-full max-w-md p-8 space-y-3 rounded-xl bg-gray-50 text-gray-800">
 	<h1 className="text-2xl font-bold text-center">Login</h1>
 	<form novalidate="" action="" className="space-y-6 ng-untouched ng-pristine ng-valid">
 		<div className="space-y-1 text-sm">
@@ -45,10 +48,13 @@ const Login = () => {
 		<a rel="noopener noreferrer" href="#" className="underline text-gray-800">Sign up</a>
 	</p>
 </div>
-
-
-        </div>
-    );
+	<div className="lg:text-left mr-9">
+	<iframe className='h-96 w-96' src="https://embed.lottiefiles.com/animation/107723"></iframe>
+    </div>
+  </div>
+</div>
+		</div>
+	);
 };
 
 export default Login;
