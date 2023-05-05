@@ -3,7 +3,9 @@ import React from 'react';
 const Login = () => {
 	return (
 		<div>
-			<div className="hero min-h-screen ">
+			<div className="hero min-h-screen " data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
   <div className="hero-content flex-col lg:flex-row-reverse">
     
   <div className="w-full max-w-md p-8 space-y-3 rounded-xl bg-gray-50 text-gray-800">

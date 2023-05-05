@@ -44,8 +44,8 @@ const Foods = () =>{
 
 
     return (
-        <div className='mt-12'>
-          <div className='text-center'>
+        <div  className='mt-12'>
+          <div className='text-center  data-aos="flip-left'>
             <h3 className='text-3xl font-bold text-blue-500 uppercase
             '>Popular Menu</h3>
             <h2 className='text-2xl font-bold'> Food Items</h2>

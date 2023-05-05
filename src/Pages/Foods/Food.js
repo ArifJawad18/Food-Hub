@@ -5,10 +5,12 @@ const Food = ({food}) => {
     return (
         <div>
             <a href="#" className="group relative block bg-black">
-  <img
-    alt="Developer"
+  <img 
+    alt="Developer" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="1000"
     src={img}
-    className="absolute inset-0 h-full w-full object-cover opacity-80 transition-opacity group-hover:opacity-50"
+    className="absolute inset-0 h-full w-full object-cover opacity-80 transition-opacity group-hover:opacity-50" 
   />
 
   <div className="relative p-4 sm:p-6 lg:p-8">

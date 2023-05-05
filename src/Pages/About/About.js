@@ -4,7 +4,9 @@ const About = () => {
   return (
     <div>
       <section class="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
-        <div class="container mx-auto">
+        <div class="container mx-auto" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
           <div class="-mx-4 flex flex-wrap items-center justify-between">
             <div class="w-full px-4 lg:w-6/12">
               <div class="-mx-3 flex items-center sm:-mx-4">
@@ -12,14 +14,18 @@ const About = () => {
                   <div class="py-3 sm:py-4">
                     <img
                       src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=480&q=80"
-                      alt=""
+                      alt="" data-aos="flip-left"
+                      data-aos-easing="ease-out-cubic"
+                      data-aos-duration="1000"
                       class="w-full rounded-2xl"
                     />
                   </div>
                   <div class="py-3 sm:py-4">
                     <img
                       src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=481&q=80"
-                      alt=""
+                      alt="" data-aos="flip-left"
+                      data-aos-easing="ease-out-cubic"
+                      data-aos-duration="1000"
                       class="w-full rounded-2xl"
                     />
                   </div>
@@ -28,7 +34,9 @@ const About = () => {
                   <div class="relative z-10 my-4">
                     <img
                       src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-                      alt=""
+                      alt="" data-aos="flip-left"
+                      data-aos-easing="ease-out-cubic"
+                      data-aos-duration="1000"
                       class="w-full rounded-2xl"
                     />
                     <span class="absolute -right-7 -bottom-7 z-[-1]">
